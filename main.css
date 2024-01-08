@@ -1,0 +1,355 @@
+body {
+  font-family: Merriweather;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 50px 140px 0;
+}
+
+section {
+  margin-top: 120px;
+}
+
+section.party-celebration {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.2) 50%);
+  background-image: url("../images/Banner Image.png");
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+}
+section.party-celebration .header-discription {
+  color: white;
+  padding-top: 177px;
+  text-align: center;
+}
+section.party-celebration .header-discription h3 {
+  font-size: 32px;
+}
+section.party-celebration .header-discription h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  margin: 0;
+}
+
+.div-catagories {
+  width: 802.9px;
+  height: 500px;
+  text-align: center;
+  margin: 80px auto;
+}
+.div-catagories h1 {
+  color: #F00;
+  text-align: center;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div-catagories p {
+  color: #F00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 56px 0 20px;
+}
+.div-catagories h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+section.midnight-party {
+  display: flex;
+  background-image: url("images/Vectorrr.png");
+  margin: 500px 0 120px 0;
+  color: white;
+}
+section.midnight-party .party-discription {
+  width: 650px;
+  padding: 126px 0 0 126px;
+}
+section.midnight-party .party-discription h1 {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+section.midnight-party .party-discription p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+section.midnight-party .party-discription button {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+section.midnight-party img {
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.place-date-time {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+  height: 482px;
+}
+section.place-date-time .party-time {
+  padding-top: 100px;
+  text-align: center;
+  color: #070211;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+section.place-date-time .party-time p span {
+  color: #F00;
+}
+section.place-date-time .party-time button {
+  color: white;
+  background-color: #F00;
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 64px;
+}
+
+section.best-offer {
+  display: flex;
+  width: 1320px;
+  height: 482px;
+}
+section.best-offer .right-side {
+  width: 393px;
+  margin: 104px 70px 0;
+}
+section.best-offer .right-side h3 {
+  color: #F00;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+}
+section.best-offer .right-side h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+section.best-offer .right-side p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+section.best-offer .middle-side {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 364.844px;
+  border: 15px solid #F00;
+  margin: 49.1px 118px 0 0;
+}
+section.best-offer .left-side {
+  width: 276px;
+  margin-top: 100px;
+}
+section.best-offer .left-side h2 {
+  color: #F00;
+  font-size: 48px;
+  font-weight: 700;
+}
+section.best-offer .left-side p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 30px;
+}
+section.best-offer .left-side img {
+  width: 140px;
+  height: 140px;
+  margin-top: 43px;
+}
+
+section.holidays-sale {
+  width: 1320px;
+  height: 950px;
+  position: relative;
+}
+section.holidays-sale .functional-discription {
+  text-align: center;
+  width: 1068px;
+  margin: 0px auto;
+}
+section.holidays-sale .functional-discription h3 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+section.holidays-sale .functional-discription h1 {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+section.holidays-sale .functional-discription h1 span {
+  color: #F00;
+}
+section.holidays-sale .functional-discription p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+section.holidays-sale .funtional-img {
+  margin-top: 0px;
+}
+section.holidays-sale .funtional-img .girl {
+  position: absolute;
+  bottom: 232px;
+  right: 0;
+  width: 429px;
+  height: 433px;
+  border-radius: 16px 16px 0px 0px;
+}
+section.holidays-sale .funtional-img .discount {
+  position: absolute;
+  right: 285px;
+  bottom: 270px;
+}
+section.holidays-sale .funtional-img .box {
+  width: 500px;
+  position: absolute;
+  bottom: 50px;
+  z-index: 99;
+}
+section.holidays-sale .funtional-img .redline {
+  position: absolute;
+  bottom: 0;
+}
+
+section.best-gifts .gifts-discription h3 {
+  color: #F00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section.best-gifts .gifts-discription h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+section.best-gifts .gifts-discription p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 20px 0;
+}
+section.best-gifts .pictures img {
+  margin: 10px;
+  width: 400px;
+}
+
+section.newsletter {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+section.newsletter .newsletter-discription img {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 80px auto 0;
+}
+section.newsletter .newsletter-discription h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+section.newsletter .newsletter-discription p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+footer {
+  background-color: black;
+  width: 1600px;
+  height: 509px;
+  color: white;
+}
+footer .top-para {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+footer .top-para .right-top {
+  display: flex;
+  flex-direction: column;
+}
+footer .top-para .right-top .first-line {
+  display: flex;
+}
+footer .top-para .right-top .second-line {
+  display: flex;
+}
+footer .middle-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+footer .bottom-para {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}/*# sourceMappingURL=main.css.map */
